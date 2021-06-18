@@ -15,6 +15,7 @@ body {
     margin: 0 auto;
     }
 
+       
 .navbarbackground{
     position: fixed;
         height: 200px;
@@ -31,13 +32,13 @@ body {
        font-weight: bold;
        font-size: 20px;
        border-radius: 5px;
-       padding: 0;
-       height: 20px;
+       height: auto;
        width: 100px;
    }
 .navbar a{
     text-decoration: none;
     color: #292929;
+    text-align: right;
 }
 .navbar a:active{
     color: white;
@@ -48,6 +49,7 @@ body {
         float: right;
         margin-right: 20px;
         font-weight: bold;
+        text-align: center;
         
        
     }
@@ -108,11 +110,10 @@ body {
         position: absolute;
             top: 30%;
             color:  #292929;
-            font-size:8vw;
-            }
+              }
 
             .name{
-                font-size: 5vw;
+                font-size: 80px;
                 font-weight: 900;
                line-height: 100px;
                 margin-bottom: 70px;
@@ -147,6 +148,7 @@ body {
             h2{
                 color:  #292929;
                 font-size: 30px;
+                text-align: center;
             }
 
             p{
@@ -266,12 +268,26 @@ body {
                         max-width: 400px;
                     }
 
+                    .brainsternext{
+                        background-image: url(../img/linebraisnter.png);
+                        background-repeat: no-repeat;
+                        
+                        
+                    }
                     .brainsternext h2{
                         text-align: center;
                     }
 
+                   .tradersalloy {
+                       background-image: url(../img/linealloy.png);
+                       background-repeat: no-repeat;
+                       
+                      
+                      
+                   }
+
                     .tradersalloy img{
-                        float: left;
+                        float: right;
                     }
 
                     .skipcrowds img{
@@ -289,15 +305,16 @@ body {
                     }
 
                     .projectbutton input{
-                        color: white;
-                        background-color: #292929;
-                        border-style: none;
+                        color: #292929;
+                        background-color: transparent;
+                        border-style: solid;
                         text-align: center;
                         margin: auto;
                         height: 43px;
                          width: 200px;
                         border-radius: 2px;
-                        font-size: 15px;
+                        font-size: 18px;
+                        font-weight: bold;
                         margin-bottom: 150px;
                         opacity: 1;
                         top: 50%;
@@ -453,29 +470,66 @@ body {
                         margin-bottom: 20px;
                     }
 
-                    @media only screen and (max-width: 1000px) {
+                    @media only screen and (max-width: 800px) {
                         .ux 
-                        {float: none; 
-                            contain: none;
-                            width: 100%;
-                            margin-bottom: 40px;
-                        }
-                    }
-                    @media only screen and (max-width: 1000px) {
-                        .ui {
-                            contain: none;
+                        {
                             float: none; 
-                            width: 100%;
-                            margin-bottom: 40px;
-                        }
-                    }
-                   
-                    @media only screen and (max-width: 1000px) {
-                        .frontend {
                             contain: none;
-                            float: none; 
                             width: 100%;
                             margin-bottom: 40px;
+                            text-align: center;
                         }
 
+                        .frontend 
+                        {
+                            float: none; 
+                            contain: none;
+                            width: 100%;
+                            margin-bottom: 40px;
+                            text-align: center;
+                        }
+
+                        .ui
+                        {
+                            float: none; 
+                            contain: none;
+                            width: 100%;
+                            margin-bottom: 40px;
+                            text-align: center;
+                            contain: initial;
+                        }
+
+                        .name 
+                        {
+                            margin-left: 20px;
+                            font-size: 50px;
+                            line-height: normal;
+                            margin-bottom: 20px;
+                        }
+                    
+
+                    .title 
+                    {
+                        margin-left: 20px;
+                        font-size: 20px;
                     }
+                    
+                        .navbar
+                        {
+                          display:none;
+                        }
+                   
+                       .navbar #myLinks {
+                                display: none;
+                            }
+                        }
+                            .hero{
+                                background-size: cover;
+       
+                            }
+                        
+                   
+                    
+                    
+                    
+                  
