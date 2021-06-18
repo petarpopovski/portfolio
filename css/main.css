@@ -28,12 +28,13 @@ body {
 }
    .navbar input{
        border: thin;
-       background-color: rgb(250, 250, 136);
+       background-color: #FF5D5D;
        font-weight: bold;
        font-size: 20px;
        border-radius: 5px;
        height: auto;
        width: 100px;
+       color: white;
    }
 .navbar a{
     text-decoration: none;
@@ -261,11 +262,11 @@ body {
              
                        .projects{
                            float: left;
-                           /* padding-top: 100px */
+                           padding-top: 100px
                        }
                        .projects img{
                         float: right;
-                        max-width: 400px;
+                        max-width: 450px;
                     }
 
                     .brainsternext{
@@ -286,8 +287,10 @@ body {
                       
                    }
 
-                    .tradersalloy img{
-                        float: right;
+                    .brainsternext img{
+                        float: left;
+                        margin-top: 30px;
+
                     }
 
                     .skipcrowds img{
