@@ -28,13 +28,13 @@ body {
 }
    .navbar input{
        border: thin;
-       background-color: #FF5D5D;
+       background-color: #f6f881;
        font-weight: bold;
        font-size: 20px;
        border-radius: 5px;
        height: auto;
        width: 100px;
-       color: white;
+       color: #292929;
    }
 .navbar a{
     text-decoration: none;
@@ -209,6 +209,7 @@ body {
 
           .bio{
            background-color: #DDDDDD;
+           
              
           }
 
@@ -221,10 +222,10 @@ body {
               float: left;
               max-height: 350px;
               margin-right: 20px;
-             
-              
-              
+            
           }
+
+        
 
           .skills{
             font-size: 20px;
@@ -252,9 +253,13 @@ body {
           
               .biopic{
                   float: left;
-                  margin-left: 20px;
-                 
-                  
+                
+        
+              }
+
+              .biopic #slika{
+                  margin-right: 100px;
+                  max-height: 400px;
               }
               .skills{
                   float: left;
@@ -269,34 +274,26 @@ body {
                         max-width: 450px;
                     }
 
-                    .brainsternext{
-                        background-image: url(../img/linebraisnter.png);
-                        background-repeat: no-repeat;
-                        
-                        
-                    }
-                    .brainsternext h2{
-                        text-align: center;
-                    }
+                    
+                  
+                
+                
 
                    .tradersalloy {
                        background-image: url(../img/linealloy.png);
                        background-repeat: no-repeat;
-                       
-                      
-                      
-                   }
-
-                    .brainsternext img{
-                        float: left;
-                        margin-top: 30px;
 
                     }
 
                     .skipcrowds img{
-                        float: right;
-                        margin-left: 25px;
-                       
+                        float: left;
+                        margin-right: 100px;
+
+                    }
+
+                    .skipcrowds p{
+                     font-size: 20px;
+                     
                     }
 
                     .projects h2{
@@ -305,6 +302,7 @@ body {
 
                     .projectbutton{
                         text-align: center;
+
                     }
 
                     .projectbutton input{
@@ -313,10 +311,10 @@ body {
                         border-style: solid;
                         text-align: center;
                         margin: auto;
-                        height: 43px;
+                        height: 40px;
                          width: 200px;
                         border-radius: 2px;
-                        font-size: 18px;
+                        font-size: 16px;
                         font-weight: bold;
                         margin-bottom: 150px;
                         opacity: 1;
@@ -336,22 +334,22 @@ body {
                         cursor: pointer;
                     }
 
-                    .brainsternext img{
-                        margin-bottom: 70px;
-                    }
-
-                    .brainsternext p{
-                        margin: 0px;
-                        font-size: 20px;
-                    }
+                    
+                  
     
                     .tradersalloy img{
                         margin-bottom: 70px;
-                        margin-right: 25px;
+                        
                     }
                
                 .tradersalloy p{
                   margin: 0px;
+                  font-size: 20px;
+                  padding-right: 600px;
+                }
+
+                .tradersalloy h2{
+                    text-align: left;
                 }
 
                     .skipcrowds img{
@@ -391,12 +389,17 @@ body {
                         font-size: 20px;
                         margin-top: 25px;
                         
+                        
                     }
                 
-                    .navbar ul li.active {
-                        color: white;
-                    }
+                    
+                   
+                    .navbar ul li{
+                        font-size: 18px;
 
+                    }
+                    
+                  
                     .socials{
                         color: white;
                         text-align: center;
