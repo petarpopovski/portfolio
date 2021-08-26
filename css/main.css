@@ -43,6 +43,7 @@ body {
 }
 .navbar a:active{
     color: white;
+    
 }
     .navbar ul {
                 list-style: none;
@@ -50,7 +51,8 @@ body {
         float: right;
         margin-right: 20px;
         font-weight: bold;
-        text-align: center;
+        text-align: right;
+        
         
        
     }
@@ -225,6 +227,8 @@ body {
             
           }
 
+          
+
         
 
           .skills{
@@ -235,11 +239,18 @@ body {
               margin: 5px;
           }
 
+          .skills img{
+              max-height: 30px;
+          }
+
           .hobbies{
               float: left;
               font-size: 20px;
               margin-left: 100px;
               
+          }
+          .hobbies img{
+              max-height: 40px;
           }
           .hobbies h2{
               margin: 5px;
@@ -288,14 +299,24 @@ body {
                     .skipcrowds img{
                         float: left;
                         margin-right: 100px;
+                        margin-bottom: 70px;
 
                     }
 
                     .skipcrowds p{
                      font-size: 20px;
+                     padding-bottom: 200px;
+                     
                      
                     }
+                    .skipcrowds{
+                        background-image: url(../img/skips.png);
+                        background-repeat: no-repeat;
+                    }
 
+                  .skipcrowds p{
+                      margin: 0px;
+                  }
                     .projects h2{
                        padding-top: 20px;
                     }
@@ -345,20 +366,38 @@ body {
                 .tradersalloy p{
                   margin: 0px;
                   font-size: 20px;
-                  padding-right: 600px;
+                  
                 }
 
                 .tradersalloy h2{
                     text-align: left;
                 }
 
-                    .skipcrowds img{
-                        margin-bottom: 70px;
-                    }
+                 .brainsterlearn img{
+                     float: right;
+                     max-width: 450px;
+                     margin-left: 100px;
+                     margin-bottom: 70px;
 
-                  .skipcrowds p{
-                      margin: 0px;
-                  }
+                 }
+
+                 .brainsterlearn p{
+                    font-size: 20px;
+                    margin: 0;
+                 }
+
+                 .brainsterlearn h2{
+                     text-align: left;
+                 }
+
+                 .brainsterlearn {
+                    background-image: url(../img/linebraisnter.png);
+                    background-repeat: no-repeat;
+                    
+
+                 }
+
+
                 
               
                 
@@ -533,7 +572,8 @@ body {
                                 background-size: cover;
        
                             }
-                        
+
+                            
                    
                     
                     
