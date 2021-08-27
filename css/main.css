@@ -370,7 +370,7 @@ body {
                 }
 
                 .tradersalloy h2{
-                    text-align: left;
+                    /* text-align: left; */
                 }
 
                  .brainsterlearn img{
@@ -387,7 +387,7 @@ body {
                  }
 
                  .brainsterlearn h2{
-                     text-align: left;
+                     /* text-align: left; */
                  }
 
                  .brainsterlearn {
@@ -397,7 +397,21 @@ body {
 
                  }
 
+                 .gallery94 img{
+                    float: left;
+                    margin-right: 50px;
+                    margin-bottom: 70px;
+                max-width: 550px;
 
+                }
+
+                .gallery94 p{
+                 font-size: 20px;
+                 padding-bottom: 200px;
+                 
+                 
+                }
+                
                 
               
                 
